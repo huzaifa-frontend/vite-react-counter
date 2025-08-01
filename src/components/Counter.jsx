@@ -21,6 +21,7 @@ function Counter() {
       <button onClick={handleIncrease}>Increase</button>
       <button onClick={handleDecrease}>Decrease</button>
       <button onClick={handleReset}>Reset</button>
+      <h2 className="text-red-500 font-bold">Tailwind is working!</h2>
     </div>
   );
 }
