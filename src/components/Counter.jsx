@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 function Counter() {
   const [count, setCount] = useState(0);
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isBouncing, setIsBouncing] = useState(false);
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
@@ -30,7 +31,11 @@ function Counter() {
 
   const handleIncrease = () => setCount(count + 1);
   const handleDecrease = () => setCount(count - 1);
-  const handleReset = () => setCount(0);
+  const handleReset = () => {
+    setIsBouncing(true);
+    setTimeout(() => setIsBouncing(false), 500);
+    setCount(0);
+  };
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition duration-300 relative">
@@ -58,7 +63,9 @@ function Counter() {
         </button>
         <button
           onClick={handleReset}
-          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded shadow"
+          className={`bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded shadow transition-transform duration-300 ease-in-out ${
+            isBouncing ? "animate-[bounce_0.5s_ease-in-out_1]" : ""
+          }`}
         >
           Reset
         </button>
