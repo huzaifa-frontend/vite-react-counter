@@ -5,7 +5,7 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![MIT License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
-🌐 **Live Demo:** [Click here to visit site]()
+🌐 **Live Demo:** [Click here to visit site](https://vite-react-counter-iota.vercel.app/)
 
 ---
 
