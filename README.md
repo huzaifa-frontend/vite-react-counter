@@ -7,6 +7,7 @@
 
 🌐 **Live Demo:** [Click here to visit site](https://vite-react-counter-iota.vercel.app/)
 
+🚀 **Deployed on Vercel**
 ---
 
 ## 📋 Overview
@@ -28,6 +29,7 @@ This is a simple and elegant counter application built with React and Vite. It f
 - [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS framework for styling.
 - JavaScript (ES6+)
 - React Hooks (`useState`, `useEffect`)
+- [Vercel](https://vercel.com/) — Hosting and deployment platform.
 
 ---
 
