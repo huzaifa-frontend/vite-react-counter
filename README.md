@@ -7,18 +7,17 @@
 
 🌐 **Live Demo:** [Click here to visit site](https://vite-react-counter-iota.vercel.app/)
 
-🚀 **Deployed on Vercel**
----
+## **Deployed on Vercel**
 
 ## 📋 Overview
 
 This is a simple and elegant counter application built with React and Vite. It features:
 
-- Increment, decrement, and reset counter functionality.
-- Dark mode toggle with persistent user preference using `localStorage`.
-- Smooth animations powered by Tailwind CSS, including a bounce effect on the reset button.
-- Built with modern React hooks: `useState` and `useEffect`.
-- Responsive and visually appealing UI using Tailwind CSS utility classes.
+- ➕ Increment, decrement, and reset counter functionality.
+- 🌙 Dark mode toggle with persistent user preference using `localStorage`.
+- 🎯 Smooth animations powered by Tailwind CSS, including a bounce effect on the reset button.
+- ⚛️ Built with modern React hooks: `useState` and `useEffect`.
+- 📱  Responsive and visually appealing UI using Tailwind CSS utility classes.
 
 ---
 
@@ -74,22 +73,27 @@ This is a simple and elegant counter application built with React and Vite. It f
 
 ```bash
 git clone https://github.com/huzaifa-frontend/vite-react-counter.git
-cd vite-react-counter
 ```
 
-2. **Install dependencies:**
+2. **Navigate to the project folder:**
+
+   ```bash
+   cd vite-react-counter
+   ```
+
+3. **Install dependencies:**
 
 ```bash
 npm install
 ```
 
-3. **Start development server:**
+4. **Start development server:**
 
 ```bash
 npm run dev
 ```
 
-4. **Open in browser:**
+5. **Open in browser:**
 
 Visit `http://localhost:5173` (or URL shown in terminal).
 
