@@ -17,7 +17,7 @@ This is a simple and elegant counter application built with React and Vite. It f
 - 🌙 Dark mode toggle with persistent user preference using `localStorage`.
 - 🎯 Smooth animations powered by Tailwind CSS, including a bounce effect on the reset button.
 - ⚛️ Built with modern React hooks: `useState` and `useEffect`.
-- 📱  Responsive and visually appealing UI using Tailwind CSS utility classes.
+- 💻 Responsive and visually appealing UI using Tailwind CSS utility classes.
 
 ---
 
@@ -77,9 +77,9 @@ git clone https://github.com/huzaifa-frontend/vite-react-counter.git
 
 2. **Navigate to the project folder:**
 
-   ```bash
-   cd vite-react-counter
-   ```
+```bash
+cd vite-react-counter
+```
 
 3. **Install dependencies:**
 
